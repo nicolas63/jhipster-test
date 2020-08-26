@@ -1,0 +1,7 @@
+entity Region {
+	regionName String
+}
+
+relationship ManyToOne {
+Region{user(login)} to User
+}

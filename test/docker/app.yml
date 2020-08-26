@@ -1,0 +1,6 @@
+version: '2'
+services:
+  test-app:
+    image: test
+    ports:
+      - 80:80

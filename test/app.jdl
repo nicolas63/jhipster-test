@@ -1,0 +1,11 @@
+entity Region {
+	regionName String
+}
+
+
+relationship ManyToOne {
+Region{user(login)} to User
+}
+
+// Use Data Transfert Objects (DTO)
+dto * with mapstruct
